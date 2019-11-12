@@ -21,11 +21,30 @@
       href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <style>
+      .t1 {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-size: 50px;
+      }
+      .hr1 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-top: 5px solid rgba(0, 0, 0, 0.5);
+      }
+      .pad1 {
+        margin-bottom: 20px;
+      }
+      .t2 {
+        margin-bottom: 30px;
+      }
+    </style>
   </head>
   <body>
     <!---HEADER NAVBAR-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Home</a>
+      <a class="navbar-brand" href="index.html">Home</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -48,7 +67,7 @@
             <a class="nav-link active" href="teachers.html">Our Teachers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Team Members</a>
+            <a class="nav-link active" href="members.html">Team Members</a>
           </li>
         </ul>
       </div>
@@ -57,14 +76,21 @@
           <li class="nav-item">
             <a
               class="nav-link active"
-              href="#"
-              tabindex="-1"
+              href="index.php"
+              target="_blank"
               aria-disabled="true"
               >Login
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Sign Up</a>
+            <a
+              class="nav-link active"
+              href="studentlogin.php"
+              target="_blank"
+              tabindex="-1"
+              aria-disabled="true"
+              >Student Login
+            </a>
           </li>
         </ul>
       </div>
@@ -72,206 +98,240 @@
     </nav>
     <!--HEADER END------------------------------------------------------------>
 
-    <section id="clients">
+    <section id="teachers">
       <div class="container">
-        <div class="row">
+        <div class="row t2">
           <div class="col-md-12">
-            <h2 style="text-align:center;margin-bottom:50px; ">
-              <strong>Team Members</strong>
+            <h2 class="t1">
+              <strong>Our Teachers</strong>
             </h2>
+            <hr class="hr1" />
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-12 ">
-            <div class="row">
-              <div
-                class="care12"
-                class="col-md-12"
-                style="background: url(gaurang1.jpg);  background-size: cover;
-                        /* <------ */
-                        background-repeat: no-repeat;
-                        background-position: center center;"
-              ></div>
-            </div>
-            <div class="row">
-              <div class="col-md-12 care13">
-                <h3>Dr. Amutha S.</h3>
-                <p>Professor/</p>
-                <!-- <hr style="margin:none; border-width:1px; border-color: black"> -->
-                <p style="font-size:30px;">
-                  <a
-                    href="https://www.linkedin.com/in/gaurang-mittal-a65a6a170/"
-                    target="blank"
-                    ><i class="ion-social-linkedin" style="color:black;"></i
-                  ></a>
-                  <a href="mailto:gaurangcs-717@dsce.edu.in" target="blank"
-                    ><i
-                      class="fa fa-envelope"
-                      style="color:black;"
-                      aria-hidden="true"
-                    ></i
-                  ></a>
+        <div class="row pad1">
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img
+                src="images/rashmireddy.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">MRS. RASHMI REDDY</h5>
+                <p class="card-text">
+                  Associate Professor<br />
+                  <strong>Qualification : </strong> M. Tech(Ph.D)
                 </p>
+                <a
+                  href="https://www.dsce.edu.in/images/CSE/faculty/pdf/ProfRashmiReddy.pdf"
+                  class="btn btn-primary"
+                  target="blank"
+                  >Read More</a
+                >
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-12">
-            <div class="row">
-              <div
-                class="care12 col-md-12"
-                style="background: url(garima.png);  background-size: cover;
-                        /* <------ */
-                        background-repeat: no-repeat;
-                        background-position: center center;"
-              ></div>
-            </div>
-            <div class="row">
-              <div class="col-md-12 care13">
-                <h3>Garima Valecha</h3>
-                <!-- <hr style="margin:none; border-width:1px; border-color: black"> -->
-                <p style="font-size:30px;">
-                  <a
-                    href="https://www.linkedin.com/in/garimavalecha/"
-                    target="blank"
-                    ><i class="ion-social-linkedin" style="color:black;"></i
-                  ></a>
-                  <a href="mailto:garimavalecha4@gmail.com" target="blank">
-                    <i
-                      class="fa fa-envelope"
-                      style="color:black;"
-                      aria-hidden="true"
-                    ></i
-                  ></a>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="images/preethi.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">DR. PREETI SATISH</h5>
+                <p class="card-text">
+                  Associate Professor<br />
+                  <strong>Qualification : </strong> M. Tech, Ph.D
                 </p>
+                <a
+                  href="https://www.dsce.edu.in/images/CSE/faculty/pdf/PreetiSatish.pdf"
+                  class="btn btn-primary"
+                  target="blank"
+                  >Read More</a
+                >
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-12 ">
-            <div class="row">
-              <div
-                class="care12 col-md-12"
-                style="background: url(sahil.jpeg);  background-size: cover;
-                        /* <------ */
-                        background-repeat: no-repeat;
-                        background-position: center center;"
-              ></div>
-            </div>
-            <div class="row">
-              <div class="col-md-12 care13">
-                <h3>Sahil Agarwal</h3>
-                <!-- <hr style="margin:none; border-width:1px; border-color: black"> -->
-                <p style="font-size:30px;">
-                  <a
-                    href="https://www.linkedin.com/in/sahil-agarwal-0b7b01120/"
-                    target="blank"
-                    ><i class="ion-social-linkedin" style="color:black;"></i
-                  ></a>
-                  <a href="mailto:sahil-cs743@dsce.edu.in" target="blank">
-                    <i
-                      class="fa fa-envelope"
-                      style="color:black;"
-                      aria-hidden="true"
-                    ></i
-                  ></a>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="images/anupama1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">
+                  MRS. ANUPAMA V KUMAR
+                </h5>
+                <p class="card-text">
+                  Associate Professor<br />
+                  <strong>Qualification : </strong> M. Tech
                 </p>
+                <a
+                  href="https://www.dsce.edu.in/images/CSE/faculty/pdf/anupama_V.pdf"
+                  class="btn btn-primary"
+                  target="blank"
+                  >Read More
+                </a>
               </div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-12 ">
-            <div class="row">
-              <div
-                class="care12 col-md-12"
-                style="background: url(shreyans.jpeg);  background-size: cover;
-                        /* <------ */
-                        background-repeat: no-repeat;
-                        background-position: center center;"
-              ></div>
-            </div>
-            <div class="row">
-              <div class="col-md-12 care13 ">
-                <h3>Shreyans Sonthalia</h3>
-                <!-- <hr style="margin:none; border-width:1px; border-color: black"> -->
-                <p style="font-size:30px;">
-                  <a
-                    href="https://www.linkedin.com/in/shreyans-sonthalia-13413b169"
-                    target="blank"
-                    ><i class="ion-social-linkedin" style="color:black;"></i
-                  ></a>
-                  <a href="mailto:ssshreyans26@gmail.com" target="blank"
-                    ><i
-                      class="fa fa-envelope"
-                      style="color:black;"
-                      aria-hidden="true"
-                    ></i
-                  ></a>
+        <div class="row pad1">
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="images/mohd.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">DR. MOHD. TAJUDDIN</h5>
+                <p class="card-text">
+                  Associate Professor(PHD)<br />
+                  <strong>Qualification : </strong>M.Tech,LMISTE
                 </p>
+                <a
+                  href="https://www.dsce.edu.in/images/CSE/faculty/pdf/Tajuddin.pdf"
+                  class="btn btn-primary"
+                  target="blank"
+                  >Read More
+                </a>
               </div>
             </div>
           </div>
-
-          <div class="col-md-4 col-sm-12 ">
-            <div class="row">
-              <div class="care12 col-md-12"></div>
-            </div>
-            <div class="row">
-              <div class="col-md-12 care13">
-                <h3>Akshaj Jain</h3>
-                <!-- <hr style="margin:none; border-width:1px; border-color: black"> -->
-                <p style="font-size:30px;">
-                  <a
-                    href="https://www.linkedin.com/in/sahil-agarwal-0b7b01120/"
-                    target="blank"
-                    ><i class="ion-social-linkedin" style="color:black;"></i
-                  ></a>
-                  <a href="mailto:akshaj.jain@gmail.com" target="blank">
-                    <i
-                      class="fa fa-envelope"
-                      style="color:black;"
-                      aria-hidden="true"
-                    ></i
-                  ></a>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="images/poornimaks.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">MRS. POORNIMA K S</h5>
+                <p class="card-text">
+                  Associate Professor<br />
+                  <strong>Qualification : </strong> M. Tech
                 </p>
+                <a
+                  href="https://www.dsce.edu.in/images/CSE/faculty/pdf/poornima_KS.pdf"
+                  class="btn btn-primary"
+                  target="blank"
+                  >Read More
+                </a>
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-12 ">
-            <div class="row">
-              <div
-                class="care12 col-md-12"
-                style="background: url(rishita.jpg);  background-size: cover;
-                        /* <------ */
-                        background-repeat: no-repeat;
-                        background-position: center center;"
-              ></div>
-            </div>
-            <div class="row">
-              <div class="col-md-12 care13 ">
-                <h3>Rishita Jain</h3>
-                <!-- <hr style="margin:none; border-width:1px; border-color: black"> -->
-                <p style="font-size:30px;">
-                  <a
-                    href="https://www.linkedin.com/in/rishita-jain-15457717b/"
-                    target="blank"
-                    ><i class="ion-social-linkedin" style="color:black;"></i
-                  ></a>
-                  <a href="mailto:rishitajain8011@gmail.com" target="blank">
-                    <i
-                      class="fa fa-envelope"
-                      style="color:black;"
-                      aria-hidden="true"
-                    ></i
-                  ></a>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="images/poornima.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">MRS. POORNIMA A B</h5>
+                <p class="card-text">
+                  Associate Professor<br />
+                  <strong>Qualification : </strong> M. Tech(Ph.D)
                 </p>
+                <a
+                  href="https://www.dsce.edu.in/images/CSE/faculty/pdf/Poornima_AB.pdf"
+                  class="btn btn-primary"
+                  target="blank"
+                  >Read More
+                </a>
               </div>
             </div>
           </div>
-
-          <!-- box-shadow:2px 2px 2px black;border:1px solid gray; -->
+        </div>
+        <div class="row pad1">
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="images/amutha.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">DR. AMUTHA S.</h5>
+                <p class="card-text">
+                  Associate Professor(PHD)<br />
+                  <strong>Qualification : </strong>M.Tech,LMISTE
+                </p>
+                <a
+                  href="https://www.dsce.edu.in/images/CSE/faculty/pdf/Amutha_S.pdf"
+                  class="btn btn-primary"
+                  target="blank"
+                  >Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="images/nagaraj.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">DR. NAGARAJ J</h5>
+                <p class="card-text">
+                  Associate Professor<br />
+                  <strong>Qualification : </strong> M. Tech,Ph.D
+                </p>
+                <a
+                  href="https://www.dsce.edu.in/images/CSE/faculty/pdf/Nagaraj_j.pdf"
+                  class="btn btn-primary"
+                  target="blank"
+                  >Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="images/akshatha.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">MS. AKSHATHA G</h5>
+                <p class="card-text">
+                  Associate Professor<br />
+                  <strong>Qualification : </strong> M. Tech
+                </p>
+                <a
+                  href="https://www.dsce.edu.in/images/CSE/faculty/pdf/akshatha_G.pdf"
+                  class="btn btn-primary"
+                  target="blank"
+                  >Read More
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+    <!--==========================
+    Footer
+  ============================-->
+    <footer id="footer">
+      <div class="footer-top">
+        <!-- <div class="container"> -->
+        <div class="row foot">
+          <div class="col-lg-5 mr-5 col-md-6 footer-info text-center">
+            <h3>Our Location</h3>
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.0074992345035!2d77.56338031430379!3d12.907239119780781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae156310100001%3A0x71be53da4480fbbe!2sDayananda+Sagar+College+of+Engineering!5e0!3m2!1sen!2sin!4v1557896676077!5m2!1sen!2sin"
+                width="100%"
+                height="317px"
+                frameborder="0"
+                style="border:0"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              Shavige Malleshwara Hills,<BR /> 91st Main Rd, <BR /> 1st Stage,
+              <BR /> Kumaraswamy Layout, Bengaluru,<BR />
+              Karnataka 560078
+              <BR /><br />
+              <strong>FAX</strong> + 1 212 963 4260<br />
+            </p>
+
+            <br />
+            <br />
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About us</a></li>
+              <!-- <li><a href="#">Services</a></li> -->
+            </ul>
+          </div>
+        </div>
+        <!-- </div> -->
+      </div>
+    </footer>
+    <!-- #footer -->
+
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
