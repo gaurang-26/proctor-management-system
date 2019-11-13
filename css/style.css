@@ -5,6 +5,10 @@ body {
 .navbar {
   background-color: #24305e !important;
 }
+#dsiimg {
+  height: 170px;
+  padding-bottom: 43px;
+}
 .c1 {
   font-size: 4rem;
   padding-top: 5%;

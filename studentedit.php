@@ -405,7 +405,7 @@ border-radius: 10px;
 								<div class="form-group">
 													<label class="control-label col-md-3">Proctor's ID:</label>
 													<div class="col-md-9">
-														<input type="text" class="form-control" name="proctorid" value=" <?php echo $pid;?>">
+														<input type="text" class="form-control" name="proctorid" value="<?php echo $pid;?>" readonly="readonly"/>
 
 													</div>
 												</div>
@@ -1287,27 +1287,27 @@ border-radius: 10px;
 													</tr>
 													<tr>
 														<th>subject1</th>
-														<td><input type="text" class="form-control" id="SUBJECT1" name="SUB1" value="<?php echo $subject1;?>" style="width:100%;" /></td>
+														<td><input type="text" class="form-control" id="SUBJECT1" name="SUB1" value="<?php echo $subject1;?>" style="width:100%;" readonly="readonly"/></td>
 													</tr>
 													<tr>
 														<th>subject2</th>
-														<td><input type="text" class="form-control" id="SUBJECT2" name="SUB2" value="<?php echo $subject2;?>" style="width:100%;" /></td>
+														<td><input type="text" class="form-control" id="SUBJECT2" name="SUB2" value="<?php echo $subject2;?>" style="width:100%;" readonly="readonly"/></td>
 													</tr>
 													<tr>
 														<th>subject3</th>
-														<td><input type="text" class="form-control" id="SUBJECT3" name="SUB3" value="<?php echo $subject3;?>" style="width:100%;" /></td>
+														<td><input type="text" class="form-control" id="SUBJECT3" name="SUB3" value="<?php echo $subject3;?>" style="width:100%;" readonly="readonly"/></td>
 													</tr>
 													<tr>
 														<th>subject4</th>
-														<td><input type="text" class="form-control" id="SUBJECT4" name="SUB4" value="<?php echo $subject4;?>"style="width:100%;" /></td>
+														<td><input type="text" class="form-control" id="SUBJECT4" name="SUB4" value="<?php echo $subject4;?>"style="width:100%;" readonly="readonly"/></td>
 													</tr>
 													<tr>
 														<th>subject5</th>
-														<td><input type="text" class="form-control" id="SUBJECT5" name="SUB5" value="<?php echo $subject5;?>" style="width:100%;" /></td>
+														<td><input type="text" class="form-control" id="SUBJECT5" name="SUB5" value="<?php echo $subject5;?>" style="width:100%;" readonly="readonly"/></td>
 													</tr>
 													<tr>
 														<th>subject6</th>
-														<td><input type="text" class="form-control" id="SUBJECT6" name="SUB6" value="<?php echo $subject6;?>"style="width:100%;" /></td>
+														<td><input type="text" class="form-control" id="SUBJECT6" name="SUB6" value="<?php echo $subject6;?>"style="width:100%;" readonly="readonly"/></td>
 													</tr>
 
 

@@ -89,8 +89,8 @@ $membertype=$_POST['membertype'];
 }
 </style>
 
-	<body style="background-color:#a8d0e6;">
-		<div style=" background-color:rgba(67, 75, 63, 0.58); color:#000000;  font-weight:1000; font-size:18px; border-radius:3px; padding:2% 10%;  width:50%; height:400px; margin:10% 25% 10% 25%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8); " >
+	<body style="">
+		<div style="background-color:rgba(236, 245, 245, 0.93); color:#000000;  font-weight:1000; font-size:18px; border-radius:3px; padding:2% 10%;  width:50%; height:400px; margin:10% 25% 10% 25%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8); " >
 			<center><h1 style="color:#800000; font-family: 'Cinzel', serif; font-weight: bold;">Login</h1></center>
 
 			<form class="form-horizontal" method="post">
@@ -101,7 +101,7 @@ $membertype=$_POST['membertype'];
 			<input type="password" class="form-control" name="password" placeholder="Enter password">
 			<br/>
 
-			<input type="radio" value="admin"  name="membertype"  id="r1"/>Admin &nbsp &nbsp <input type="radio" value="teacher" name="membertype" id="r2" />Teacher
+			<input type="radio" value="admin"  name="membertype"  id="r1"/> &nbsp;Admin &nbsp &nbsp <input type="radio" value="teacher" name="membertype" id="r2" />&nbsp;Teacher
 			<br /><br/>
 
 			<center>

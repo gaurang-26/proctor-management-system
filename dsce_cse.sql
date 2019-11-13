@@ -100,7 +100,11 @@ CREATE TABLE IF NOT EXISTS `student` (
    `extracurr1` varchar(30) ,
   `extracurr2` varchar(30) NOT NULL,
   `extracurr3` varchar(30) NOT NULL,
- 
+  `pgcet` varchar(8) NOT NULL,
+  `gate` varchar(8) NOT NULL,
+  `gmat` varchar(8) NOT NULL,
+  `gre` varchar(8) NOT NULL,
+  `toefl` varchar(8) NOT NULL,
     PRIMARY KEY (`sid`)
 ) ENGINE=MyISAM AUTO_INCREMENT=26 DEFAULT CHARSET=latin1;
 
