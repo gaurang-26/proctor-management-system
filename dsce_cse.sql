@@ -97,15 +97,21 @@ CREATE TABLE IF NOT EXISTS `student` (
   `localdist` varchar(20) NOT NULL,
   `localstate` varchar(20) NOT NULL,
   `localpin` varchar(6) NOT NULL,
+    `hometype` varchar(20) NOT NULL,
    `extracurr1` varchar(30) ,
   `extracurr2` varchar(30) NOT NULL,
   `extracurr3` varchar(30) NOT NULL,
-  `pgcet` varchar(8) NOT NULL,
-  `gate` varchar(8) NOT NULL,
-  `gmat` varchar(8) NOT NULL,
-  `gre` varchar(8) NOT NULL,
-  `toefl` varchar(8) NOT NULL,
-    PRIMARY KEY (`sid`)
+    `password` varchar(10) NOT NULL,
+    `issues` varchar(50) NOT NULL,
+  `subject1` varchar(8) NOT NULL,
+  `subject2` varchar(8) NOT NULL,
+  `subject3` varchar(8) NOT NULL,
+  `subject4` varchar(8) NOT NULL,
+  `subject5` varchar(8) NOT NULL,
+  `subject6` varchar(8) NOT NULL,
+    `proctorid` integer NOT NULL,
+    PRIMARY KEY (`sid`,`proctorid`),
+    foreign key(`proctorid`) REFERENCES teacher(`proctorid`)
 ) ENGINE=MyISAM AUTO_INCREMENT=26 DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
