@@ -88,7 +88,7 @@ if (isset($_POST['btn'])) {
 	$pid = $_POST['proctorid'];
 	$ins = "insert into student(title,firstname,middlename,lastname,usn,enrollid,section,shift,admissiontype,currentsem,currentyear,admissiondate,academicyear,rollno,dob,gender,phone,email,religion,category,mothername,motherphone,fathername,fatherphone,sem1,sem2,sem3,sem4,sem5,sem6,sem7,sem8,cgpa,resadd,resdist,resstate,respin,localadd,localdist,localstate,localpin,hometype,extracurr1,extracurr2,extracurr3,password,issues,subject1,subject2,subject3,subject4,subject5,subject6,proctorid)values('$ttl','$fnm','$mnm','$lnm','$usn','$enrl','$sec','$sft','$admtyp','$cursem','$curyr','$admdt','$acdyr','$rno','$db','$gen','$ph','$eml','$rel','$cat','$motnm','$motph','$fatnm','$fatph','$sem1','$sem2','$sem3','$sem4','$sem5','$sem6','$sem7','$sem8','$cgpa','$rsadd','$rsdst','$rsstt','$rspin','$lcladd','$lcldst','$lclstt','$lclpin','$hmtyp','$extracurr1','$extracurr2','$extracurr3','$password','$issues','$subject1','$subject2','$subject3','$subject4','$subject5','$subject6','$pid')";
 	if (mysqli_query($con, $ins)) {
-		header("location:admininsertdashboard.php");
+		header("location:admindashboard.php");
 	} else {
 		echo mysqli_error();
 	}
